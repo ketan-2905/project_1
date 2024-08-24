@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  width: 350px;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  background-color: rgb(0, 213, 255);
+  text-align: center;
+  margin-top: 0rem;
+}
+
+footer{
+  width: 100%;
+  background-color: rgb(0, 213, 255);
+  text-align: center;
+  margin-top: 0rem;
+  position:fixed;
+  bottom: 0rem;
+}
+
+.to-do{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  margin: 0.25rem 0;
+  background-color: #eee;
+}
+
+.to-do > label{
+  width: 26rem;
+}
+
+
+
+.to-do > input{
+  height: 2rem;
+  width: 2rem;
+  border: 1px solide black;
+  border-radius: 0rem;
+  margin: 0rem 0.5rem 0rem 0.5rem;
+  background-color: rgb(220, 220, 220);
+}
+
+.to-do > .trash {
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  margin-right: 0.5rem;
+  background-color: #eee;
+  font-size: 1.8rem;
+}
+
+.addFrom input {
+  width: 90%;
+  height: 2rem;
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
+
+.addFrom button{
+  width: 8%;
+  height: 2rem;
+}
+
+.searchFrom input {
+  width: 98%;
+  height: 2rem;
+  padding: 0.5rem;
+  margin: 0.3rem;
+
+}
